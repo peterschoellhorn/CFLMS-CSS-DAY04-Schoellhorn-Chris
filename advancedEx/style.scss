@@ -1,28 +1,45 @@
-@media screen and (max-width: 480px) {
+// Phone
+@media screen and (max-width: 600px) {
    body {
-       background-color: lightgreen;
+   	background-color: red;
+   }
+   .album_image {
+       max-width: 300px;
    }
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
-   body {
-       background-color: deepskyblue;
+// Tablet
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+	body {
+   	background-color: green;
+   }
+   .album_image {
+       max-width: 330px;
    }
 }
+// Laptop Screen
 @media screen and (min-width:1201px) {
-   body {
-       background-color: darksalmon;
+	body {
+   	background-color: blue;
+   }
+   .album_image {
+       max-width: 400px;
    }
 }
 
 #container {
-	width: 80%;
-	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap; 
+//	width: 90%;
+	//max-width: 1200px;
 	margin: 0 auto;
 }
 
 .album_image {
-	width: 30%;
+//	max-height: 30%;
+//	max-width: 400px;
  	display: inline-block;
+ 	overflow: hidden;
 	img {
 		width: 100%;
 	}

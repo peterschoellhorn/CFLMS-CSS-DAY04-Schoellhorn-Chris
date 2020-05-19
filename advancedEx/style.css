@@ -1,27 +1,40 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   body {
-    background-color: lightgreen;
+    background-color: red;
+  }
+
+  .album_image {
+    max-width: 300px;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
+@media screen and (min-width: 601px) and (max-width: 1200px) {
   body {
-    background-color: deepskyblue;
+    background-color: green;
+  }
+
+  .album_image {
+    max-width: 330px;
   }
 }
 @media screen and (min-width: 1201px) {
   body {
-    background-color: darksalmon;
+    background-color: blue;
+  }
+
+  .album_image {
+    max-width: 400px;
   }
 }
 #container {
-  width: 80%;
-  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
 .album_image {
-  width: 30%;
   display: inline-block;
+  overflow: hidden;
 }
 .album_image img {
   width: 100%;
