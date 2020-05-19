@@ -1,0 +1,30 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: deepskyblue;
+  }
+}
+@media screen and (min-width: 1201px) {
+  body {
+    background-color: darksalmon;
+  }
+}
+#container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.album_image {
+  width: 30%;
+  display: inline-block;
+}
+.album_image img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
