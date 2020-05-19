@@ -6,11 +6,16 @@
   background-color: blue;
 }
 #nav ul {
+  display: block;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-#nav ul a {
+#nav li {
+  list-style-type: none;
+}
+#nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
