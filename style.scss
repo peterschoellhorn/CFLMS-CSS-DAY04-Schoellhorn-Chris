@@ -1,0 +1,20 @@
+$font: sans-serif;
+$nav_bg: blue;
+
+* {
+	font-family: $font;
+}
+
+#nav {
+	background-color: $nav_bg;
+ ul {
+ 	margin: 0;
+    padding: 0;
+    list-style: none;
+     a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+	}
+ }
+}
